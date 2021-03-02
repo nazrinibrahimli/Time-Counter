@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image/snow.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: lighter;
+}
+#container{
+display: flex;
+flex-wrap: wrap;
+}
+
+.orta{
+margin-top: 25px;
+
+}
+
+h1{
+font-size: 3.5rem;
+margin-top: -8rem;
+color: rgb(5, 22, 16);
+
+}
+p{
+
+    font-size: 7rem;
+    line-height: 1;
+    margin: 0px 2rem;
+}
+.yazi{
+
+    text-align: center;
+    font-size: 20px;
+    color: rgb(37, 34, 22);
+    background-color: rgb(204, 202, 179);
+   padding: 2px;
+   border-radius: 5%;
+}
+
